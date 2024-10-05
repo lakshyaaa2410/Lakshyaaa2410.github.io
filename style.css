@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+:root{
+    --primary:#749a35;
+    --secondry:#f5f7fa;
+}
+
+
+.matriosNav {
+    margin: 1.1rem 0;
+}
+
+.myRow {
+    margin: 40px 0 0 0;
+}
+
+.imgDiv {
+    text-align: center !important;
+}
+.heroImg {
+    width: 70%;
+}
+
+.heroDes {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+    line-height: 2;
+
+}
+
+.heroBtn {
+    background-color: var(--primary) !important;
+    color: white !important;
+    padding: 10px 35px;
+    font-size: 15px;
+}
+
+.heroBtn:hover {
+    background-color: #5c8026 !important;
+}
+
+.prohead
+{
+ margin-top: 20px;
+}
+
+.card
+{
+    display: flex;
+    align-items: center;
+
+}
+
+.card img
+{
+    margin: 1.5rem;
+    width: 75%;
+    transition: transform .2s ease-in-out;
+}
+
+.card-body
+{
+    text-align: center;
+}
+.card img:hover
+{
+    transform: scale(1.2); 
+    margin: 2rem;
+}
