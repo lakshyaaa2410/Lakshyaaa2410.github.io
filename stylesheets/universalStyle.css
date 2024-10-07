@@ -1,0 +1,88 @@
+/* Universal Styles */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+::selection {
+	background-color: var(--primary);
+	color: white;
+}
+
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+	font-family: "Montserrat", sans-serif;
+}
+
+body p {
+	font-family: "Open Sans", sans-serif;
+}
+
+/* Color Variables */
+:root {
+	--primary: #749a35;
+}
+
+/* Hero Section Style */
+.matriosNav {
+	margin: 1.1rem 0;
+}
+
+.links {
+	font-size: 1.1em;
+}
+
+.links:hover {
+	color: var(--primary);
+	text-decoration-line: underline;
+	text-underline-offset: 0.625rem;
+}
+
+/* Footer Style */
+#footer {
+	background-color: #263238;
+	padding: 0 150px 50px 150px;
+}
+.footerLogo {
+	width: 35%;
+	margin-bottom: 20px;
+}
+.footerDiv {
+	color: white;
+	padding-top: 3rem;
+	text-align: start;
+}
+
+.contactInfoDiv div {
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 8px;
+}
+
+.contactInfoDiv p {
+	margin: 0;
+	padding-left: 10px !important;
+	font-size: 0.9rem !important;
+}
+
+.copyrightDiv p {
+	font-size: 0.95rem !important;
+}
+
+.contactInfoDiv {
+	padding-top: 30px;
+}
+
+.contactInfoDiv a {
+	color: #fff;
+	text-decoration: none;
+}
+.contactInfoDiv a:hover {
+	color: #c0c0c0;
+}

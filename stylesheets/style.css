@@ -1,0 +1,82 @@
+.heroRow {
+	margin: 2.5rem 0 0 0;
+}
+
+.imgDiv {
+	text-align: center !important;
+}
+.heroImg {
+	width: 70%;
+}
+
+.heroDes {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	line-height: 2;
+}
+
+.knowMoreBtn {
+	/* Colour Properties */
+	background-color: var(--primary) !important;
+	color: white !important;
+
+	/* Border Properties */
+	border-color: #ffffff !important;
+
+	padding: 0.625rem 2.1875rem;
+	font-size: 0.9375rem;
+}
+
+.knowMoreBtn:hover {
+	background-color: #496420 !important;
+	border-color: black !important;
+}
+
+/* Product Section Style */
+#product {
+	margin-top: 3.75rem;
+	margin-bottom: 3.75rem;
+	padding-top: 1.875rem;
+	width: 85%;
+}
+
+.prohead h1 {
+	margin-bottom: 1.875rem;
+}
+
+.prodCard {
+	display: flex;
+	align-items: center;
+	border-color: #ffffff !important;
+}
+
+.prodImage {
+	margin: 1.5rem;
+	width: 75%;
+	height: 80%;
+}
+
+.prodContent {
+	text-align: center;
+}
+
+/* Banner Section Style */
+#banner {
+	margin-top: 9.375rem;
+	margin-bottom: 6.25rem;
+}
+.bannerImg {
+	width: 50%;
+}
+
+.bannerDes {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	text-align: start;
+
+	line-break: auto;
+}
+

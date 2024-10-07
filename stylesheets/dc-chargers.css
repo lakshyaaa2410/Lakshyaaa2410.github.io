@@ -1,0 +1,47 @@
+.heading {
+	margin-top: 30px;
+}
+
+.h1Underline::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	height: 4px;
+	width: 100%;
+	background-color: #5c8026;
+	transform: scaleX(0);
+	transition: transform 0.5s ease-in-out;
+	bottom: -2px;
+}
+
+.h1Underline:hover::before {
+	transform: scaleX(1);
+}
+
+#content {
+	margin-bottom: 40px;
+}
+.contentCol {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 50px 0;
+}
+
+.contentCol h1 {
+	margin: 10px 0;
+	font-size: 2.3rem;
+}
+
+.contentCol p {
+	margin: 10px 0;
+	padding: 10px;
+	line-break: auto;
+	text-align: center;
+}
+
+.contentCol img {
+	width: 65%;
+}
