@@ -1,0 +1,70 @@
+.animLeft,
+.animRight {
+	opacity: 0;
+	transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.animLeft {
+	transform: translateX(-100%);
+}
+
+.animRight {
+	transform: translateX(100%);
+}
+
+.in-view.animLeft {
+	transform: translateX(0);
+	opacity: 1;
+}
+
+.in-view.animRight {
+	transform: translateX(0);
+	opacity: 1;
+}
+
+/* Navbar Animation */
+
+.nav-item a {
+	color: gray;
+	font-weight: 400;
+}
+
+.nav-item a {
+	position: relative;
+	transition: color 0s ease;
+}
+
+.nav-item a::after,
+.nav-item a::before {
+	content: " ";
+	position: absolute;
+	width: 0%;
+	display: block;
+	height: 2px;
+	transition: all 0.3s ease;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.nav-item a::after {
+	bottom: 0;
+	left: 0;
+}
+
+.nav-item a::before {
+	top: 0;
+	right: 0;
+}
+
+.nav-item a:hover::after {
+	width: 100%;
+	background-color: #749a35;
+}
+
+.nav-item a:hover::before {
+	width: 100%;
+	background-color: #bb8d0d;
+}
+.nav-item a:hover {
+	color: #5c8026;
+}

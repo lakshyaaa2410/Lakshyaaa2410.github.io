@@ -28,6 +28,9 @@
 	align-items: center;
 	text-align: center;
 	padding: 50px 0;
+
+	position: relative;
+	overflow: hidden;
 }
 
 .contentCol h1 {
@@ -37,11 +40,23 @@
 
 .contentCol p {
 	margin: 10px 0;
-	padding: 10px;
 	line-break: auto;
-	text-align: center;
+	text-align: start;
 }
 
 .contentCol img {
 	width: 65%;
 }
+
+.specBtn {
+	color: #749a35;
+	border-color: #749a35;
+}
+
+.specBtn:hover {
+	color: white;
+	background-color: #5c8026;
+	border-color: white;
+}
+
+/*  */

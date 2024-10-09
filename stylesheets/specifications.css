@@ -1,0 +1,55 @@
+#product {
+	margin-top: 2rem;
+}
+
+#product p {
+	line-height: 1.8;
+}
+
+#specs h2 {
+	text-align: start;
+	margin: 2.5rem 0 1rem 0;
+}
+
+.specsTable {
+	border-color: gray;
+	font-size: 1.1rem;
+	font-weight: 450;
+}
+ul li {
+	margin: 5px 0;
+	font-weight: 500;
+}
+
+/* Underline Styles */
+h2 {
+	--a: -45deg; /* control the angle */
+	--t: 0.1em; /* thickness of the underline */
+	color: #749a35;
+	margin-bottom: 30px;
+}
+
+h2 span {
+	--_s: calc(var(--t) * cos(var(--a)));
+	background: linear-gradient(
+			var(--a),
+			#0000 var(--_s),
+			currentColor 0 calc(100% - var(--_s)),
+			#0000 0
+		)
+		bottom/var(--i, 90%) var(--t) no-repeat;
+	padding: 0 0.25em calc(var(--t) + 0.1em);
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+h2:hover span {
+	--i: 100%;
+}
+
+h2 {
+	line-height: 1.5;
+	text-transform: capitalize;
+}

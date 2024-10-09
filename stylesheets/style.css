@@ -64,7 +64,7 @@
 
 /* Banner Section Style */
 #banner {
-	margin-top: 9.375rem;
+	margin-top: 6.375rem;
 	margin-bottom: 6.25rem;
 }
 .bannerImg {
@@ -80,3 +80,26 @@
 	line-break: auto;
 }
 
+/* Operational Centers Style */
+#operationalCenters {
+	background: rgb(239, 239, 239) !important;
+}
+
+#operationalCenters h3 {
+	padding-top: 25px;
+	text-decoration: underline;
+}
+.operationalCentersImg {
+	width: 10rem;
+	padding: 2rem;
+}
+
+/* Demo */
+
+#promo {
+	text-align: center;
+}
+.promoImg {
+	width: 95%;
+	border-radius: 50px;
+}
