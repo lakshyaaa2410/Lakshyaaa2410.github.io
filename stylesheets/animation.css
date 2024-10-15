@@ -68,3 +68,8 @@
 .nav-item a:hover {
 	color: #5c8026;
 }
+
+.nav-link.active {
+	color: #3498db;
+	font-weight: bold;
+}

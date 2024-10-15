@@ -1,5 +1,5 @@
 #product {
-	margin-top: 2rem;
+	margin-top: 10rem;
 }
 
 #product p {
@@ -11,16 +11,23 @@
 	margin: 2.5rem 0 1rem 0;
 }
 
+.prodImg {
+	width: 70%;
+}
 .specsTable {
 	border-color: gray;
 	font-size: 1.1rem;
 	font-weight: 450;
+	margin-bottom: 3rem;
 }
 ul li {
 	margin: 5px 0;
 	font-weight: 500;
 }
 
+li::marker {
+	color: #749a35;
+}
 /* Underline Styles */
 h2 {
 	--a: -45deg; /* control the angle */
@@ -52,4 +59,12 @@ h2:hover span {
 h2 {
 	line-height: 1.5;
 	text-transform: capitalize;
+}
+
+.broucher {
+	margin-left: 1rem;
+	background-color: #749a35;
+}
+.broucher:hover {
+	background-color: #5a7430;
 }

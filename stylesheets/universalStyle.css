@@ -23,16 +23,31 @@
 	--primary: #749a35;
 }
 
-/* Hero Section Style */
+body {
+	overflow-x: hidden;
+}
+/* Navbar Section Style */
+
+#navBar {
+	border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+#title {
+	margin-top: 8rem;
+}
+
 .matriosNav {
-	margin: 1.1rem 0;
+	position: fixed;
 	top: 0;
-	background-color: white;
-	padding: 10px 0;
+	background-color: rgba(255, 255, 255, 0.95);
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+	padding: 1rem 0;
 }
 
 .links {
-	font-size: 1.1em;
+	font-size: 1.1rem;
 }
 
 /* Footer Style */
@@ -83,3 +98,5 @@
 .contactInfoDiv a:hover {
 	color: #c0c0c0;
 }
+
+/*  */
